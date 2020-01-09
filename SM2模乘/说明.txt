@@ -1,0 +1,5 @@
+gen_reduction_lut.py			用于产生约减数。
+modular_multiplication.sv		基于ozturk乘法器的256bits模乘。  
+modular_multiplication_2_stages.sv	2级流水线256bits模乘。
+xpb_lut.sv				基于查找表的约减数生成模块。
+tb_mm.sv				modular_multiplication.sv的testbench。

@@ -28,7 +28,7 @@ always_comb begin
 end
 
 adder_tree_2_to_1 #(.NUM_ELEMENTS(NUM_ELEMENTS), .BIT_LEN(BIT_LEN))
-	u_adder_tree_2_to_1(.terms(terms), S(S));
+	u_adder_tree_2_to_1(.terms(terms), .S(S));
 
 --------------------------------------------------*/
 

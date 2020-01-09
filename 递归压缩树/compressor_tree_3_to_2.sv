@@ -28,7 +28,7 @@ always_comb begin
 end
 
 compressor_tree_3_to_2 #(.NUM_ELEMENTS(NUM_ELEMENTS), .BIT_LEN(BIT_LEN))
-	u_compressor_tree_3_to_2(.terms(terms), .C(C), S(S));
+	u_compressor_tree_3_to_2(.terms(terms), .C(C), .S(S));
 
 --------------------------------------------------*/
 

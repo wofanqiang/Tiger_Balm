@@ -25,7 +25,7 @@ always_comb begin
 end
 
 accumulator #(.NUM_ELEMENTS(NUM_ELEMENTS), .BIT_LEN(BIT_LEN))
-	u_accumulator(.terms(terms), S(S));
+	u_accumulator(.terms(terms), .S(S));
 
 --------------------------------------------------*/
 
